@@ -1,41 +1,75 @@
-# electron-shoppingList
-steps to follow:
+## Electron-ShoppingList
+
+![](GifMaker_20201016185914734.gif)
+#### Steps to follow:
   
-   1. Fork my repo.
-   2. Make a folder "electron/project/main.js"
-   3. Open git bash, cd into "electron/project" and type "npm init"
-         write,
-             discription: "anything you want"
-             entry point: main.js
-             author:  "anythig"
-             licence: MIT
-             PRESS "ENTER"
-         this will create package.json 
-             open package.json and change the code with github package.json
-                                  
-   4. Command "npm install --save electron" on gitbash.
-         this will create package-lock.json and add dependency on package.json.
-   5. Make a file "electron/project/main.js" and copy "main.js" from github main.js file.
-   6. Make a file "electron/project/mainWindow.html" and copy github mainWindow.html file. 
-   7. Command "npm start" on gitbash, starts the app and ctrl+c to quit.
-   8. Make a file "electron/project/addWindow.html" and copy github addWindow.html file. 
-   9. Make a folder "electron/project/assets/icons/
-                                            1. win/icon.ico
-                                            2. mac/icon.icns
-                                            3. png/icon.png
-                                       given in github, download any paste in mentioned file .    
+   1. Make a folder `electron/project/main.js`
+   2. Open git bash, cd into `electron/project` and type `npm init`
+   write on;
     
-    10. Pulblishing the app,
-                     gitbash cmnd "electron install --save-dev electron-packager"
+            discription: "anything you want"
+            entry point: main.js
+            author:  "anything"
+            licence: MIT
+            PRESS "ENTER"  
+
+         ###### now `package.json ` is created automatically
+                 
+   3. Open `package.json` and change the code with github `package.json` file.
+   
+      Command :                        
+      >npm install --save electron
+
+      ###### This will create `package-lock.json` and add dependency on `package.json` file.
+
+4. Make a file `electron/project/main.js` and copy `main.js` from github main.js file.
+
+5. Make a file `electron/project/mainWindow.html` and copy github mainWindow.html file.
     
-    11. Command "nmp run package-win" on gitbash
-    this creates a folder release-builds/"your app name"/
-    and the file with entension .exe is the main app.
-              just open it
+   Command :
+
+    >npm start  "starts the app" 
+
+    >ctrl+c "quit the app".
+
+6. Make a file `electron/project/addWindow.html` and copy github `addWindow.html file` . 
+
+7. Make a folder `electron/project/assets/icons`/
+    - `win/icon.ico`
+    - `mac/icon.icns`
+    - `png/icon.png`
+
+   **from github repo, download and paste these files.**  
+    
+8. Pulblishing the app;
+
+    command 
+     >electron install --save-dev electron-packager
+    
+9. Command
+   >  nmp run package-win
+
+  ######  this creates a folder `release-builds/"your app name" and the file with entension .exe` 
+
+### This is our main APP
+
+>##### just open it
         
-                  and
-    
-     have fun with that and don't hesitate to change any code.
-         if helpNeeded:hapysingh1313@gmail.com
-         
+
+>and....
+
+>## Have Fun
+
+<hr/>
+
+---
+---
+
+###### If Help Needed   
+
+[<img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/gmail.svg" />
+](https://mail.google.com/mail/?view=cm&fs=1&to=hapysingh1313@gmail.com&su=SUBJECT&body=BODY&bcc=hapysingh1313@gmail.com
+)   
+ Contact me  
+ 
          
